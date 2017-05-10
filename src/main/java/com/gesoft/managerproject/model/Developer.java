@@ -2,11 +2,14 @@ package com.gesoft.managerproject.model;
 
 import java.util.List;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 public class Developer {
 
 	
 	private Integer id;
 	private String name;
+	@NotBlank(message="You must provide a valid developer last name")
 	private String lastName;
 	private String type;
 	private List<String> skills;
