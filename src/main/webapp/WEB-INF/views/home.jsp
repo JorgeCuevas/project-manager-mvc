@@ -1,6 +1,7 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false"%>
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <html>
 <jsp:include page="/WEB-INF/views/templates/header.jsp"></jsp:include>
 <div class="container">
@@ -9,16 +10,12 @@
 	</div>
 	<p class="lead">
 		This is a project done with project mvc to pratice some feactuares
-
 		<code>Maven, Java EE, Spring Framework, Bootstrap.</code>
-
-
 	</p>
 	<p>
 		Back to <a href="../sticky-footer">To the project Git Hub Repo</a>
 	</p>
 </div>
-
 <jsp:include page="/WEB-INF/views/templates/footer.jsp"></jsp:include>
 
 </html>

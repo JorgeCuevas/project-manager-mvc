@@ -14,10 +14,12 @@
 		<div class="form-group">
 			<label for="email">Name:</label> 
 			<form:input type="text" path="name" cssClass="form-control" id="name"  />
+			<form:errors path="name" />
 		</div>
 		<div class="form-group">
 			<label for="pwd">Last Name:</label> 
 			<form:input type="text" path="lastName" cssClass="form-control" id="lastName" />
+			<form:errors path="lastName" />
 		</div>
 		
 		<div class="form-group">

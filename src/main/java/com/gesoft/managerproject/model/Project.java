@@ -14,8 +14,7 @@ public class Project {
 	
 	
 	
-	public Project(Integer id, String descripcion, Date start, Boolean open, Integer managerId,
-			List<Developer> developers) {
+	public Project(Integer id, String descripcion, Date start, Boolean open, Integer managerId, List<Developer> developers) {
 		super();
 		this.id = id;
 		this.descripcion = descripcion;
